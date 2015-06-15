@@ -2,12 +2,6 @@
 
 [![Build Status](http://dekko-ci.cloudapp.net:8080/job/d-test-devel/badge/icon)](http://dekko-ci.cloudapp.net:8080/job/d-test-devel/)
 
-Donate
-======
-You can [support Dekko with donations via PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=dpniel%40ubuntu%2ecom&lc=GB&item_name=Dekko%20email%20client&item_number=Dekko&currency_code=GBP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted).
-
-[![Support Dekko now.](http://manlybeachrunningclub.com/wp-content/uploads/2015/01/paypal-donate-button115.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=dpniel%40ubuntu%2ecom&lc=GB&item_name=Dekko%20email%20client&item_number=Dekko&currency_code=GBP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
-
 This is a general README. For in-depth instructions on hacking, see HACKING.md
 
 Pre-requisites
