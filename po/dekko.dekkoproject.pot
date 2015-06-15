@@ -1,0 +1,1885 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Dan Chapman.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: dekko.dekkoproject\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-06 09:27+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. TRANSLATORS: This is you as in "On Monday you wrote"
+#: src/app/Composition/ComposerUtils.cpp:67
+msgid "you"
+msgstr ""
+
+#: src/app/Composition/ComposerUtils.cpp:69
+#, qt-format
+msgid "On %1, %2 wrote:\n"
+msgstr ""
+
+#: src/app/Composition/SubmissionManager.cpp:171
+msgid "No recipients given, please provide a recipient for this message"
+msgstr ""
+
+#: src/app/Composition/SubmissionManager.cpp:207
+msgid "Something went wrong and dekko cannot serialize this message."
+msgstr ""
+
+#: src/app/Composition/SubmissionManager.cpp:227
+msgid "Unable to send message, please provide a proper configuration"
+msgstr ""
+
+#: src/app/Models/MessageBuilder.cpp:119
+msgid "Error loading message"
+msgstr ""
+
+#: src/app/Models/MessageBuilder.cpp:165 qml/Components/HeaderComponent.qml:60
+msgid "From:"
+msgstr ""
+
+#: src/app/Models/MessageBuilder.cpp:168 qml/Components/HeaderComponent.qml:78
+msgid "To:"
+msgstr ""
+
+#: src/app/Models/MessageBuilder.cpp:171 qml/Components/HeaderComponent.qml:83
+msgid "Cc:"
+msgstr ""
+
+#: src/app/Models/MessageBuilder.cpp:174 qml/Components/HeaderComponent.qml:90
+msgid "Bcc:"
+msgstr ""
+
+#: src/app/Models/MessageBuilder.cpp:277
+msgid "Compose message to"
+msgstr ""
+
+#: src/app/Models/MessageBuilder.cpp:280 qml/Components/AddressWidget.qml:75
+msgid "Add to Addressbook"
+msgstr ""
+
+#: src/app/Accounts/Account.cpp:534 src/app/Accounts/SenderIdentity.cpp:90
+msgid "Sent using Dekko from my Ubuntu device"
+msgstr ""
+
+#: src/3rdParty/trojita/MSA/Sendmail.cpp:81
+#, qt-format
+msgid "The sendmail process has failed: %1"
+msgstr ""
+
+#: src/3rdParty/trojita/MSA/Sendmail.cpp:103
+#, qt-format
+msgid ""
+"The sendmail process has failed (%1):\n"
+"%2\n"
+"%3"
+msgstr ""
+
+#: src/3rdParty/trojita/MSA/SMTP.cpp:48
+msgid "Sending of the message was cancelled"
+msgstr ""
+
+#: src/3rdParty/trojita/MSA/SMTP.cpp:63
+msgid "Sending of the message failed."
+msgstr ""
+
+#: src/3rdParty/trojita/MSA/SMTP.cpp:65
+#, qt-format
+msgid "Sending of the message failed with the following error: %1"
+msgstr ""
+
+#: src/3rdParty/trojita/MSA/SMTP.cpp:127
+msgid "Unknown SMTP mode"
+msgstr ""
+
+#: src/3rdParty/trojita/MSA/AbstractMSA.cpp:51
+#, qt-format
+msgid "Sending mail plaintext is not supported by %1"
+msgstr ""
+
+#: src/3rdParty/trojita/MSA/AbstractMSA.cpp:59
+#, qt-format
+msgid "BURL is not supported by %1"
+msgstr ""
+
+#: src/3rdParty/trojita/MSA/AbstractMSA.cpp:68
+#, qt-format
+msgid "IMAP sending is not supported by %1"
+msgstr ""
+
+#: src/3rdParty/trojita/MSA/AbstractMSA.cpp:74
+#, qt-format
+msgid "Setting password is not supported by %1"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/SenderIdentitiesModel.cpp:94
+#: qml/Settings/user/SenderIdentityInput.qml:49
+#: qml/SetupWizard/ManualSetup.qml:57 qml/SetupWizard/BasicSetup.qml:42
+msgid "Name"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/SenderIdentitiesModel.cpp:96
+msgid "E-mail"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/SenderIdentitiesModel.cpp:98
+#: qml/Contact/ContactEditPage.qml:138
+#: qml/Settings/user/SenderIdentityInput.qml:66
+msgid "Organization"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/SenderIdentitiesModel.cpp:100
+#: qml/Settings/user/SenderIdentityInput.qml:76
+msgid "Signature"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/ComposerAttachments.cpp:125
+#, qt-format
+msgid ""
+"%1\n"
+"(from %2)"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/ComposerAttachments.cpp:136
+msgid "File does not exist"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/ComposerAttachments.cpp:139
+msgid "File is not readable"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/ComposerAttachments.cpp:240
+msgid "Message not available"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/ComposerAttachments.cpp:253
+#, qt-format
+msgid "IMAP message %1"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/ComposerAttachments.cpp:372
+#, qt-format
+msgid "IMAP part %1"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/MessageComposer.cpp:600
+#: src/3rdParty/trojita/Composer/MessageComposer.cpp:629
+#, qt-format
+msgid "Attachment %1 is not available"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/MessageComposer.cpp:634
+#, qt-format
+msgid "Attachment %1 disappeared"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:104
+msgid "Preparing to send"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:109
+msgid "Creating message"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:114
+msgid "Saving to the sent folder"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:119
+msgid "Preparing message for delivery"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:124
+msgid "Submitting message"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:129
+msgid "Updating message keywords"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:134
+msgid "Message sent"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:141
+msgid "Sending failed"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:173
+msgid ""
+"The IMAP connection has disappeared. You'll have close the composer, save "
+"the draft and re-open it later. The attachments will have to be added later. "
+"Sorry for the trouble"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:186
+msgid "Some data are not available yet"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:202
+#, qt-format
+msgid ""
+"Cannot send right now -- saving failed:\n"
+" %1"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:206
+#, qt-format
+msgid ""
+"Cannot send right now -- saving (CATENATE) failed:\n"
+" %1"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:324
+msgid "Sent"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:344
+#, qt-format
+msgid "APPEND failed: %1"
+msgstr ""
+
+#: src/3rdParty/trojita/Composer/Submission.cpp:374
+msgid "The URLAUTH response does not contain a proper URL"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Network/MsgPartNetworkReply.cpp:92
+#: src/3rdParty/trojita/Imap/Tasks/OfflineConnectionTask.cpp:62
+msgid "Offline"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Network/FileDownloadManager.cpp:50
+#, c-format, qt-format
+msgid "msg_%1.eml"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Network/FileDownloadManager.cpp:53
+#, qt-format
+msgid "msg_%1_%2"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Network/ForbiddenReply.cpp:34
+msgid "Remote Content Is Banned"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/ImapTask.cpp:256
+#, qt-format
+msgid ""
+"The server sent the following ALERT:\n"
+"%1"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/GenUrlAuthTask.cpp:86
+msgid "Obtaining authentication token"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/NoopTask.cpp:74
+msgid "Checking for new messages"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:73
+msgid "Mailbox syncing dead or aborted"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/ObtainSynchronizedMailboxTask.cpp:1186
+msgid "Synchronizing mailbox"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/KeepMailboxOpenTask.cpp:677
+msgid "Logging off..."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/KeepMailboxOpenTask.cpp:918
+msgid "The UIDVALIDITY has changed while mailbox is open. Please reconnect."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/SubscribeUnsubscribeTask.cpp:115
+#: src/3rdParty/trojita/Imap/Tasks/NumberOfMessagesTask.cpp:99
+msgid "Looking for messages"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/CreateMailboxTask.cpp:89
+msgid "Creating mailbox"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/ThreadTask.cpp:109
+msgid "Fetching conversations"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/UpdateFlagsOfAllMessagesTask.cpp:105
+msgid "Saving mailbox state"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/ExpungeMailboxTask.cpp:78
+msgid "Removing deleted messages"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/AppendTask.cpp:97
+msgid "Uploading message"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/FetchMsgMetadataTask.cpp:102
+msgid "Downloading headers"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/FetchMsgPartTask.cpp:118
+msgid "Downloading messages"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/EnableTask.cpp:86
+msgid "Enabling IMAP extensions"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/CopyMoveMessagesTask.cpp:133
+msgid "Copying messages"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/IdTask.cpp:86
+msgid "Identifying server"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/UpdateFlagsTask.cpp:148
+msgid "Saving message state"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/ListChildMailboxesTask.cpp:152
+msgid "Listing mailboxes"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/DeleteMailboxTask.cpp:109
+msgid "Deleting mailbox"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/DeleteMailboxTask.cpp:115
+#, qt-format
+msgid "Mailbox %1 has pending activity, so it cannot be deleted now."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/SortTask.cpp:231
+msgid "Sorting mailbox"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:164
+msgid ""
+"Configuration requires sending STARTTLS, but the IMAP server greets us with "
+"PREAUTH. Encryption cannot be established. If this configuration worked "
+"previously, someone is after your data and they are pretty smart."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:196
+msgid "Server has closed the connection"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:203
+#, qt-format
+msgid ""
+"The server replied with the following BAD response:\n"
+"%1"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:205
+msgid "Server has greeted us with a BAD response"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:237
+#, qt-format
+msgid "STARTTLS failed: %1"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:266
+msgid "Capabilities still contain LOGINDISABLED even after STARTTLS"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:302
+msgid "Temporary failure because a subsystem is down."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:305
+msgid ""
+"Authentication failed.  This often happens due to bad password or wrong user "
+"name."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:308
+msgid ""
+"Authentication succeeded in using the authentication identity, but the "
+"server cannot or will not allow the authentication identity to act as the "
+"requested authorization identity."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:313
+msgid ""
+"Either authentication succeeded or the server no longer had the necessary "
+"data; either way, access is no longer permitted using that passphrase.  You "
+"should get a new passphrase."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:318
+msgid "The operation is not permitted due to a lack of privacy."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:321
+msgid "You should contact the system administrator or support desk."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:328
+#, qt-format
+msgid "Login failed: %1"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:330
+#, qt-format
+msgid ""
+"%1\n"
+"\n"
+"%2"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:381
+msgid "Server does not support STARTTLS"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:401
+msgid "Server did not provide useful capabilities"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:405
+msgid "CAPABILITIES command has failed"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:460
+msgid "No credentials available"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:467
+msgid "Connecting to mail server"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:487
+msgid "The security state of the SSL connection got rejected"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/OpenConnectionTask.cpp:496
+msgid ""
+"The security state of the connection after a STARTTLS operation got rejected"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/UidSubmitTask.cpp:55
+#, qt-format
+msgid "UIDVALIDITY mismatch: expected %1, got %2"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/UidSubmitTask.cpp:84
+msgid "Sending mail"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Tasks/ExpungeMessagesTask.cpp:105
+msgid "Removing some of the deleted messages"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/TaskPresentationModel.cpp:195
+#, qt-format
+msgid "Parser %1"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/TaskPresentationModel.cpp:200
+#, qt-format
+msgid "%1: %2"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/ImapAccess.cpp:278
+#, qt-format
+msgid "Failed to create directory %1"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/ImapAccess.cpp:287
+#, qt-format
+msgid "Failed to set safe permissions on cache directory %1"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MsgListModel.cpp:298
+#: qml/Composer/MessageComposer.qml:468
+msgid "Subject"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MsgListModel.cpp:300
+#: qml/Composer/IdentitySelector.qml:39
+msgid "From"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MsgListModel.cpp:302
+msgid "To"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MsgListModel.cpp:304
+msgid "Cc"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MsgListModel.cpp:306
+msgid "Bcc"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MsgListModel.cpp:308
+msgid "Date"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MsgListModel.cpp:310
+msgid "Received"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MsgListModel.cpp:312
+msgid "Size"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/ThreadingMsgListModel.cpp:309
+msgid "[Message is missing]"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/ThreadingMsgListModel.cpp:312
+msgid ""
+"This thread refers to an extra message, but that message is not present in "
+"the selected mailbox, or is missing from the current search context."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/FullMessageCombiner.cpp:104
+msgid "Offline mode: uncached message data not available"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/FullMessageCombiner.cpp:106
+msgid "Offline mode: uncached header data not available"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/FullMessageCombiner.cpp:108
+msgid "Offline mode: uncached body data not available"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/PrettyMailboxModel.cpp:81
+#, qt-format
+msgid "%1 (%2/%3)"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/PrettyMailboxModel.cpp:85
+#, qt-format
+msgid "%1 (%2)"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/PrettyMailboxModel.cpp:126
+#, qt-format
+msgid ""
+"<p>%1</p>\n"
+"<p>%2 messages<br/>%3 unread<br/>%4 recent</p>"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/SystemNetworkWatcher.cpp:91
+msgid ""
+"Qt does not recognize any network session. Please be sure that qtbearer "
+"package (or similar) is installed. Assuming that network is actually already "
+"available."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/PrettyMsgListModel.cpp:106
+#: qml/MessageListView/LightWeightDelegate.qml:174
+msgid "Loading..."
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/PrettyMsgListModel.cpp:108
+msgid "(no subject)"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/Model.cpp:258
+msgid ""
+"<p>The server has refused to start the encryption through the STARTTLS "
+"command.</p>"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/Model.cpp:1148
+msgid "Going offline"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/Model.cpp:1221
+msgid ""
+"<p>It appears that you are connecting to a POP3 server. That won't work here."
+"</p>"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/Model.cpp:1223
+msgid ""
+"<p>It appears that you are connecting to an SMTP server. That won't work "
+"here.</p>"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/Model.cpp:1284
+msgid "We aren't talking to an IMAP4 server"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/Model.cpp:1536
+msgid "The connection is being killed for unspecified reason"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MailboxTree.cpp:1149
+msgid "Today"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MailboxTree.cpp:1153
+msgid "Yesterday"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MailboxTree.cpp:1156
+msgid "dddd"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MailboxTree.cpp:1161
+msgid "dd MMMM yyyy"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MailboxTree.cpp:1573
+#, qt-format
+msgid "[loading %1...]"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MailboxTree.cpp:1574
+#, qt-format
+msgid "[loading %1: %2...]"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/MailboxTree.cpp:1586
+#, qt-format
+msgid "%1 bytes of data"
+msgstr ""
+
+#: src/3rdParty/trojita/Imap/Model/NetworkWatcher.cpp:52
+#, qt-format
+msgid "Attempting to reconnect in %1 secs"
+msgstr ""
+
+#: src/3rdParty/trojita/Plugins/QtKeyChain/QtKeyChainPassword.cpp:129
+msgid "Secure storage via QtKeychain"
+msgstr ""
+
+#: src/3rdParty/trojita/Plugins/ClearTextPassword/ClearTextPassword.cpp:52
+#: src/3rdParty/trojita/Plugins/ClearTextPassword/ClearTextPassword.cpp:68
+#: src/3rdParty/trojita/Plugins/ClearTextPassword/ClearTextPassword.cpp:80
+#: src/plugins/SimpleCryptPassword/EncryptedPassword.cpp:81
+#: src/plugins/SimpleCryptPassword/EncryptedPassword.cpp:93
+msgid "This plugin only supports storing of IMAP and SMTP passwords"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/PasswordWatcher.cpp:79
+#, qt-format
+msgid "Loading password from plugin %1..."
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/PasswordWatcher.cpp:83
+#, qt-format
+msgid "Cannot read password via plugin %1"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/PasswordWatcher.cpp:86
+#: src/3rdParty/trojita/UiUtils/PasswordWatcher.cpp:175
+msgid "Password plugin is not available."
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/PasswordWatcher.cpp:117
+#, qt-format
+msgid "Password reading failed: %1"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/PasswordWatcher.cpp:146
+#, qt-format
+msgid "Password writing failed: %1"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/PasswordWatcher.cpp:168
+#, qt-format
+msgid "Saving password from plugin %1..."
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/PasswordWatcher.cpp:172
+#, qt-format
+msgid "Cannot save password via plugin %1"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:86
+msgid "0"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:96
+#, qt-format
+msgid "%1 bytes"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:98
+msgid "kB"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:100
+msgid "MB"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:102
+msgid "GB"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:105
+msgid "TB"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:107
+#, qt-format
+msgid "%1 %2"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:128
+msgid "hh:mm"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:133
+msgid "ddd hh:mm"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:138
+msgid "d MMM hh:mm"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:172
+#, qt-format
+msgid ""
+"<li><b>CN</b>: %1,<br/>\n"
+"<b>Organization</b>: %2,<br/>\n"
+"<b>Serial</b>: %3,<br/>\n"
+"<b>SHA1</b>: %4,<br/>\n"
+"<b>MD5</b>: %5</li>"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:176
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:177
+msgid ", "
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:187
+msgid "<p>The remote side doesn't have a certificate.</p>\n"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:188
+#, qt-format
+msgid ""
+"<p>This is the certificate chain of the connection:</p>\n"
+"<ul>%1</ul>\n"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:188
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:203
+msgid "\n"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:196
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:198
+#, qt-format
+msgid "<li>%1</li>"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:203
+#, qt-format
+msgid ""
+"<p>The connection triggered the following SSL errors:</p>\n"
+"<ul>%1</ul>\n"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:214
+msgid "Different SSL certificate"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:215
+#, qt-format
+msgid ""
+"<p>The public key of the SSL certificate has changed. This should only "
+"happen when there was a security incident on the remote server. Your system "
+"configuration is set to accept such certificates anyway.</p>\n"
+"%1\n"
+"<p>Would you like to connect and remember the new certificate?</p>"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:222
+msgid "SSL certificate looks fishy"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:223
+#, qt-format
+msgid ""
+"<p>The public key of the SSL certificate of the IMAP server has changed "
+"since the last time and your system doesn't believe that the new certificate "
+"is genuine.</p>\n"
+"%1\n"
+"%2\n"
+"<p>Would you like to connect anyway and remember the new certificate?</p>"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:232
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:239
+msgid "Accept SSL connection?"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:233
+#, qt-format
+msgid ""
+"<p>This is the first time you're connecting to this IMAP server; the "
+"certificate is trusted by this system.</p>\n"
+"%1\n"
+"%2\n"
+"<p>Would you like to connect and remember this certificate's public key for "
+"the next time?</p>"
+msgstr ""
+
+#: src/3rdParty/trojita/UiUtils/Formatting.cpp:240
+#, qt-format
+msgid ""
+"<p>This is the first time you're connecting to this IMAP server and the "
+"server certificate failed validation test.</p>\n"
+"%1\n"
+"\n"
+"%2\n"
+"<p>Would you like to connect and remember this certificate's public key for "
+"the next time?</p>"
+msgstr ""
+
+#: src/plugins/SimpleCryptPassword/EncryptedPassword.cpp:70
+msgid "This plugin only supports storing imap and smtp passwords"
+msgstr ""
+
+#: qml/DeveloperMode/DevSettingsTabs.qml:64
+msgid "Failed saving password"
+msgstr ""
+
+#: qml/DeveloperMode/DevSettingsTabs.qml:66
+msgid "Continue"
+msgstr ""
+
+#: qml/DeveloperMode/DevSettingsTabs.qml:100
+#: qml/Composer/MessageComposer.qml:279
+#: qml/Dialogs/SubmissionStatusDialog.qml:69
+#: qml/Dialogs/MoveMessageActionDialog.qml:38 qml/Dialogs/InfoDialog.qml:37
+msgid "Close"
+msgstr ""
+
+#: qml/DeveloperMode/DevSettingsTabs.qml:123
+msgid "Save"
+msgstr ""
+
+#: qml/DeveloperMode/DevSettingsTabs.qml:149
+msgid "Developer Settings"
+msgstr ""
+
+#: qml/DeveloperMode/DevSettingsTabs.qml:160 qml/Settings/ServerView.qml:7
+msgid "Server Settings"
+msgstr ""
+
+#: qml/DeveloperMode/DevSettingsTabs.qml:171
+msgid "Mail Preferences"
+msgstr ""
+
+#: qml/DeveloperMode/DevSettingsTabs.qml:181
+msgid "Sender Identity"
+msgstr ""
+
+#: qml/DeveloperMode/DevSettingsTabs.qml:192
+msgid "Capabilities"
+msgstr ""
+
+#: qml/DeveloperMode/ImapCapabilitiesView.qml:32
+msgid "IMAP Capabilities"
+msgstr ""
+
+#: qml/DeveloperMode/ImapCapabilitiesView.qml:62
+msgid "Click on a capability to disable it"
+msgstr ""
+
+#: qml/AccountsView/AccountsDrawer.qml:134
+#: qml/AccountsView/AccountsPage.qml:35
+msgid "Accounts"
+msgstr ""
+
+#: qml/AccountsView/AccountsDrawer.qml:148
+#: qml/AccountsView/AccountsPage.qml:93
+msgid "Add account"
+msgstr ""
+
+#: qml/AccountsView/AccountsDrawer.qml:156
+msgid "Email settings"
+msgstr ""
+
+#: qml/AccountsView/AccountsDrawer.qml:174 qml/Contact/AddressbookPage.qml:61
+msgid "Addressbook"
+msgstr ""
+
+#: qml/AccountsView/AccountsListView.qml:135
+#: qml/Composer/RecipientField.qml:214
+#: qml/Settings/global/GlobalSettingsListModel.qml:44
+#: qml/MessageView/OneMessagePage.qml:188
+#: qml/MailboxView/MailboxListView.qml:70
+#: qml/MessageListView/MessagesListView.qml:326
+msgid "Delete"
+msgstr ""
+
+#: qml/AccountsView/AccountsPage.qml:53
+msgid "No email account is setup yet. Add one?"
+msgstr ""
+
+#: qml/Contact/imports/ContactDelegate.qml:122
+#: qml/Contact/AddressbookPage.qml:150
+msgid "emails"
+msgstr ""
+
+#: qml/Contact/ContactDetailPage.qml:147
+msgid "Emails"
+msgstr ""
+
+#: qml/Contact/ContactDetailPage.qml:168
+#: qml/MessageView/OneMessagePage.qml:147
+#: qml/MailboxView/MailboxListPage.qml:126 qml/main.qml:101 qml/main.qml:110
+#: qml/MessageListView/MessageListPage.qml:177
+msgid "New Message"
+msgstr ""
+
+#: qml/Contact/ContactDetailPage.qml:183
+#, qt-format
+msgid "Remove contact %1?"
+msgstr ""
+
+#: qml/Contact/AddressbookPage.qml:90 qml/Contact/ContactChoicePage.qml:213
+msgid "Search contact"
+msgstr ""
+
+#: qml/Contact/ContactChoicePage.qml:33
+msgid "Add recipients"
+msgstr ""
+
+#: qml/Contact/ContactChoicePage.qml:33
+msgid "Add to addressbook"
+msgstr ""
+
+#: qml/Contact/ContactChoicePage.qml:82 qml/Composer/RecipientField.qml:220
+msgid "Recipient kind"
+msgstr ""
+
+#: qml/Contact/ContactEditPage.qml:63
+msgid "Edit contact"
+msgstr ""
+
+#: qml/Contact/ContactEditPage.qml:63
+msgid "New contact"
+msgstr ""
+
+#: qml/Contact/ContactEditPage.qml:69
+msgid "Error creating contact"
+msgstr ""
+
+#: qml/Contact/ContactEditPage.qml:70
+msgid "Please fill in the name of the contact."
+msgstr ""
+
+#: qml/Contact/ContactEditPage.qml:128
+msgid "First name"
+msgstr ""
+
+#: qml/Contact/ContactEditPage.qml:133
+msgid "Surname"
+msgstr ""
+
+#: qml/Contact/ContactEditPage.qml:148 qml/SetupWizard/ManualSetup.qml:68
+msgid "Email"
+msgstr ""
+
+#: qml/Contact/ContactEditPage.qml:200
+msgid "Add email"
+msgstr ""
+
+#: qml/Composer/DraftsPanel.qml:57
+msgid "You currently have no draft messages saved"
+msgstr ""
+
+#: qml/Composer/DraftsPanel.qml:74
+msgid "<No Recipient>"
+msgstr ""
+
+#: qml/Composer/AttachmentField.qml:84
+msgid "Add attachment"
+msgstr ""
+
+#: qml/Composer/MessageComposer.qml:277
+msgid "Oops!"
+msgstr ""
+
+#: qml/Composer/MessageComposer.qml:467
+msgid "Enter Subject"
+msgstr ""
+
+#: qml/Composer/MessageComposer.qml:479
+msgid "Enter Message"
+msgstr ""
+
+#: qml/Composer/RecipientField.qml:81 qml/Composer/TypedRecipientField.qml:88
+#: qml/Components/AddressField.qml:51
+msgid "Add another recipient"
+msgstr ""
+
+#: qml/Composer/RecipientField.qml:87 qml/Composer/TypedRecipientField.qml:96
+#: qml/Components/AddressField.qml:56
+msgid "Ooops!"
+msgstr ""
+
+#: qml/Composer/RecipientField.qml:88 qml/Composer/TypedRecipientField.qml:97
+#: qml/Components/AddressField.qml:57
+#, qt-format
+msgid "'%1' doesn't seem to be a valid email address"
+msgstr ""
+
+#: qml/Composer/RecipientField.qml:234
+msgid "Add to contact"
+msgstr ""
+
+#: qml/Composer/ComposePage.qml:34 qml/MessageView/OneMessagePage.qml:54
+msgid "Message"
+msgstr ""
+
+#: qml/Composer/ComposePage.qml:51 qml/Composer/ComposePage.qml:60
+#: qml/Composer/ComposePageHeadConfiguration.qml:35
+#: qml/Settings/user/MailboxBehaviour.qml:228
+#: qml/Components/BasePageWithComposer.qml:134
+msgid "Drafts"
+msgstr ""
+
+#: qml/Composer/ComposePage.qml:70
+#: qml/Composer/ComposePageHeadConfiguration.qml:44
+msgid "Send"
+msgstr ""
+
+#: qml/Composer/ComposePage.qml:80
+#: qml/Composer/ComposePageHeadConfiguration.qml:54
+#: qml/Dialogs/PasswordDialog.qml:90 qml/Dialogs/ConfirmationDialog.qml:31
+#: qml/Dialogs/MoveMessageActionDialog.qml:59
+msgid "Cancel"
+msgstr ""
+
+#: qml/Composer/TypedRecipientField.qml:126
+msgid "Enter recipient address"
+msgstr ""
+
+#: qml/Composer/TypedRecipientField.qml:373
+msgid "Remove"
+msgstr ""
+
+#: qml/Settings/user/ServerSettings.qml:45
+#: qml/Settings/user/OutgoingServerSettings.qml:43
+#: qml/SetupWizard/ManualSetup.qml:134 qml/SetupWizard/ManualSetup.qml:224
+msgid "Host name"
+msgstr ""
+
+#: qml/Settings/user/ServerSettings.qml:57
+#: qml/Settings/user/OutgoingServerSettings.qml:56
+#: qml/SetupWizard/ManualSetup.qml:155 qml/SetupWizard/ManualSetup.qml:245
+msgid "Username"
+msgstr ""
+
+#: qml/Settings/user/ServerSettings.qml:81
+#: qml/Settings/user/OutgoingServerSettings.qml:80
+#: qml/SetupWizard/ManualSetup.qml:165 qml/SetupWizard/ManualSetup.qml:255
+#: qml/SetupWizard/BasicSetup.qml:77
+msgid "Password"
+msgstr ""
+
+#: qml/Settings/user/ServerSettings.qml:98
+#: qml/Settings/user/OutgoingServerSettings.qml:97
+#: qml/SetupWizard/ManualSetup.qml:175 qml/SetupWizard/ManualSetup.qml:264
+#: qml/SetupWizard/BasicSetup.qml:104 qml/Dialogs/PasswordDialog.qml:73
+msgid "Show password"
+msgstr ""
+
+#: qml/Settings/user/ServerSettings.qml:103
+#: qml/Settings/user/OutgoingServerSettings.qml:102
+#: qml/SetupWizard/ManualSetup.qml:145 qml/SetupWizard/ManualSetup.qml:235
+msgid "Port"
+msgstr ""
+
+#: qml/Settings/user/ServerSettings.qml:150
+msgid "Show only subscribed folders"
+msgstr ""
+
+#: qml/Settings/user/ServerSettings.qml:159
+msgid "Server capabilities"
+msgstr ""
+
+#: qml/Settings/user/AccountsListPage.qml:35
+#: qml/Settings/user/AccountsListPage.qml:103
+#: qml/Settings/user/AccountsListPage.qml:110
+msgid "Account Settings"
+msgstr ""
+
+#: qml/Settings/user/AccountsListPage.qml:69
+msgid "Save Changes?"
+msgstr ""
+
+#: qml/Settings/user/AccountsListPage.qml:133
+msgid "Incoming server"
+msgstr ""
+
+#: qml/Settings/user/AccountsListPage.qml:134
+msgid "Outgoing server"
+msgstr ""
+
+#: qml/Settings/user/AccountsListPage.qml:135
+#: qml/Settings/user/AccountListModel.qml:48
+msgid "Account description"
+msgstr ""
+
+#: qml/Settings/user/AccountsListPage.qml:136
+#: qml/Settings/user/AccountListModel.qml:85
+msgid "Mailbox behaviour"
+msgstr ""
+
+#: qml/Settings/user/SenderIdentityInput.qml:57
+msgid "Email Address"
+msgstr ""
+
+#: qml/Settings/user/ProfileSettingsPage.qml:30
+#: qml/SetupWizard/ManualSetup.qml:79 qml/SetupWizard/BasicSetup.qml:109
+msgid "Description"
+msgstr ""
+
+#: qml/Settings/user/ProfileSettingsPage.qml:34
+#: qml/SetupWizard/ManualSetup.qml:81 qml/SetupWizard/BasicSetup.qml:111
+msgid "Eg: \"Personal\" or \"Work\""
+msgstr ""
+
+#: qml/Settings/user/ProfileSettingsPage.qml:42
+#: qml/SetupWizard/ManualSetup.qml:89 qml/SetupWizard/BasicSetup.qml:119
+msgid "Company (optional)"
+msgstr ""
+
+#: qml/Settings/user/IdentitiesList.qml:71
+#: qml/Settings/user/IdentitiesList.qml:98
+msgid "Add identity"
+msgstr ""
+
+#: qml/Settings/user/IdentitiesList.qml:83
+msgid "No identities configured"
+msgstr ""
+
+#: qml/Settings/user/QuoteSelector.qml:69
+#: qml/Settings/user/MailboxBehaviour.qml:145
+msgid "Above quoted message"
+msgstr ""
+
+#: qml/Settings/user/QuoteSelector.qml:83
+msgid "Below quoted message"
+msgstr ""
+
+#: qml/Settings/user/QuoteSelector.qml:97
+msgid "Inline"
+msgstr ""
+
+#: qml/Settings/user/SignatureSelector.qml:69
+msgid "All messages"
+msgstr ""
+
+#: qml/Settings/user/SignatureSelector.qml:83
+msgid "Only new messages"
+msgstr ""
+
+#: qml/Settings/user/SignatureSelector.qml:97
+#: qml/Settings/user/MailboxBehaviour.qml:79
+#: qml/Settings/user/MailboxBehaviour.qml:248
+#: qml/Settings/global/CachePolicySelector.qml:59
+#: qml/Settings/global/MarkReadSelector.qml:77
+msgid "Never"
+msgstr ""
+
+#: qml/Settings/user/NewIdentityPage.qml:24
+msgid "Edit identity"
+msgstr ""
+
+#: qml/Settings/user/NewIdentityPage.qml:24
+msgid "New identity"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:48
+msgid "Archiving"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:52
+msgid "Enable archiving"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:60
+msgid "Archive messages"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:61
+msgid "In Archive folder"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:66
+msgid "Archive format"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:67
+msgid "Monthly"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:71
+msgid "Composing messages"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:76
+msgid "Save sent messages"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:80
+#, qt-format
+msgid "In %1 folder"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:80
+#: qml/Settings/user/MailboxBehaviour.qml:249
+msgid "Select folder..."
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:127
+msgid "Attempt re-submit on fail"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:135
+msgid "Quote original message"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:144
+msgid "Start reply"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:154
+msgid "Include signature"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:163
+msgid "Include addresses"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:164
+msgid "added to every message"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:182
+msgid "Cc these addresses"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:203
+msgid "Bcc these addresses"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:220
+msgid "Use comma separated values"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:235
+msgid "Save drafts"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:236
+#, qt-format
+msgid "In %1"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:240
+msgid "Deleting messages"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:245
+msgid "Move deleted messages"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:249
+#, qt-format
+msgid "To %1 folder"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:297
+msgid "Permanently delete messages"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:298
+#, qt-format
+msgid "After %1 days"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:301
+msgid "Mark as read when deleted"
+msgstr ""
+
+#: qml/Settings/user/MailboxBehaviour.qml:308
+msgid "Never delete starred messages"
+msgstr ""
+
+#: qml/Settings/user/AccountListModel.qml:38
+msgid "Incoming mail server"
+msgstr ""
+
+#: qml/Settings/user/AccountListModel.qml:43
+msgid "Outgoing mail server"
+msgstr ""
+
+#: qml/Settings/user/AccountListModel.qml:54
+msgid "Sender identities"
+msgstr ""
+
+#: qml/Settings/user/AccountListModel.qml:77
+msgid "Add new identity"
+msgstr ""
+
+#: qml/Settings/user/AccountListModel.qml:82
+msgid "Mailbox settings"
+msgstr ""
+
+#: qml/Settings/user/AccountListModel.qml:89
+msgid "Enable thunderbird tags"
+msgstr ""
+
+#: qml/Settings/global/OfflineSettingsPage.qml:14
+msgid "Offline Settings"
+msgstr ""
+
+#: qml/Settings/global/OfflineSettingsPage.qml:30
+#: qml/Settings/global/GlobalSettingsListModel.qml:133
+msgid "Start offline"
+msgstr ""
+
+#: qml/Settings/global/OfflineSettingsPage.qml:48
+msgid ""
+"Starting offline may cause the views to not fully load, but re-opening that "
+"view will fix it"
+msgstr ""
+
+#: qml/Settings/global/OfflineSettingsPage.qml:59
+msgid "Cache Offline"
+msgstr ""
+
+#: qml/Settings/global/OfflineSettingsPage.qml:60
+msgid "Do not cache"
+msgstr ""
+
+#: qml/Settings/global/OfflineSettingsPage.qml:60
+msgid "Cache offline for X days"
+msgstr ""
+
+#: qml/Settings/global/OfflineSettingsPage.qml:60
+msgid "Cache everything"
+msgstr ""
+
+#: qml/Settings/global/OfflineSettingsPage.qml:90
+msgid "Number of days to cache offline"
+msgstr ""
+
+#: qml/Settings/global/CachePolicySelector.qml:104
+msgid "Cache for"
+msgstr ""
+
+#: qml/Settings/global/CachePolicySelector.qml:120
+msgid "days"
+msgstr ""
+
+#: qml/Settings/global/CachePolicySelector.qml:130
+msgid "Forever"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListModel.qml:16
+msgid "Account settings"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListModel.qml:56
+msgid "Display settings"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListModel.qml:64
+msgid "Mark messages read"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListModel.qml:75
+msgid "Show preview"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListModel.qml:81
+msgid "Prefer plain text messages"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListModel.qml:89
+msgid "Auto load images"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListModel.qml:96
+msgid "Hide messages marked for deletion"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListModel.qml:103
+msgid "Enable avatars"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListModel.qml:115
+msgid "Privacy and security"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListModel.qml:118
+msgid "Show you are using Dekko"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListModel.qml:130
+msgid "Offline settings"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListModel.qml:145
+msgid "Cache offline"
+msgstr ""
+
+#: qml/Settings/global/MarkReadSelector.qml:91
+msgid "After 1 second"
+msgstr ""
+
+#: qml/Settings/global/MarkReadSelector.qml:105
+msgid "After 2 seconds"
+msgstr ""
+
+#: qml/Settings/global/MarkReadSelector.qml:119
+msgid "After 3 seconds"
+msgstr ""
+
+#: qml/Settings/global/MarkReadSelector.qml:134
+msgid "Immediately"
+msgstr ""
+
+#: qml/Settings/global/CompositionSettingsPage.qml:13
+msgid "Composition"
+msgstr ""
+
+#: qml/Settings/global/GlobalSettingsListView.qml:14
+msgid "Settings"
+msgstr ""
+
+#: qml/Settings/global/PreviewSelector.qml:48
+msgid "Disable"
+msgstr ""
+
+#: qml/Settings/global/PreviewSelector.qml:62
+msgid "1 line"
+msgstr ""
+
+#: qml/Settings/global/PreviewSelector.qml:76
+msgid "2 lines"
+msgstr ""
+
+#: qml/Settings/AboutPage.qml:34
+msgid "About"
+msgstr ""
+
+#: qml/Settings/AboutPage.qml:54
+msgid "Dekko Email Client"
+msgstr ""
+
+#: qml/Settings/AboutPage.qml:121
+msgid "Want to say thanks?<br>Then please consider making a donation."
+msgstr ""
+
+#: qml/Settings/AboutPage.qml:146
+msgid ""
+"If you wish to support the future development of Dekko, please consider "
+"making recurring donations."
+msgstr ""
+
+#: qml/Settings/ServerView.qml:29
+msgid "IMAP"
+msgstr ""
+
+#: qml/Settings/ServerView.qml:29
+msgid "SMTP"
+msgstr ""
+
+#: qml/MessageView/DekkoWebView.qml:133
+msgid "Open in browser?"
+msgstr ""
+
+#: qml/MessageView/DekkoWebView.qml:134
+#, qt-format
+msgid "Confirm to open %1 in web browser"
+msgstr ""
+
+#: qml/MessageView/OneMessagePage.qml:44
+#, qt-format
+msgid "Reply to %1"
+msgstr ""
+
+#: qml/MessageView/OneMessagePage.qml:204
+msgid "Next message"
+msgstr ""
+
+#: qml/MessageView/OneMessagePage.qml:218
+msgid "Previous message"
+msgstr ""
+
+#: qml/MessageView/OneMessagePage.qml:233
+#: qml/MessageListView/MessageListActionPopover.qml:32
+msgid "Reply all"
+msgstr ""
+
+#: qml/MessageView/OneMessagePage.qml:252
+#: qml/MessageListView/MessageListActionPopover.qml:18
+msgid "Reply"
+msgstr ""
+
+#: qml/MessageView/OneMessagePage.qml:271
+msgid "Reply List"
+msgstr ""
+
+#: qml/MessageView/OneMessagePage.qml:290
+#: qml/MessageView/OneMessagePage.qml:295
+#: qml/MessageListView/MessageListActionPopover.qml:47
+#: qml/MessageListView/MessageListActionPopover.qml:52
+msgid "Forward"
+msgstr ""
+
+#: qml/MessageView/OneMessagePage.qml:318
+msgid "Downloading"
+msgstr ""
+
+#: qml/SetupWizard/ManualSetup.qml:60 qml/SetupWizard/BasicSetup.qml:48
+msgid "Eg: \"John Smith\""
+msgstr ""
+
+#: qml/SetupWizard/ManualSetup.qml:72 qml/SetupWizard/BasicSetup.qml:58
+msgid "Eg: \"johnsmith@example.com\""
+msgstr ""
+
+#: qml/SetupWizard/ManualSetup.qml:96
+msgid "Incoming Mail Server"
+msgstr ""
+
+#: qml/SetupWizard/ManualSetup.qml:138
+msgid "Eg: \"imap.example.com\""
+msgstr ""
+
+#: qml/SetupWizard/ManualSetup.qml:185
+msgid "Outgoing Mail Server"
+msgstr ""
+
+#: qml/SetupWizard/ManualSetup.qml:228
+msgid "Eg \"smtp.example.com\""
+msgstr ""
+
+#: qml/SetupWizard/AccountSetup.qml:32 qml/SetupWizard/NewAccountPage.qml:28
+msgid "New Account"
+msgstr ""
+
+#: qml/SetupWizard/AccountSetup.qml:301
+msgid "Failed to login in to the IMAP server"
+msgstr ""
+
+#: qml/SetupWizard/AccountSetup.qml:365
+msgid "Searching for account settings..."
+msgstr ""
+
+#: qml/SetupWizard/NewAccountTypeListView.qml:55
+msgid "Other account"
+msgstr ""
+
+#: qml/SetupWizard/BasicSetup.qml:54
+msgid "Email address"
+msgstr ""
+
+#: qml/MailboxView/MailboxListDelegate.qml:118
+#: qml/MailboxView/MailboxListDelegate.qml:119
+#: qml/MessageListView/MessageListPage.qml:32
+#: qml/MessageListView/MessageListPage.qml:42 qml/Components/DekkoPage.qml:188
+msgid "Inbox"
+msgstr ""
+
+#: qml/MailboxView/MailboxActionPopover.qml:40
+#: qml/Components/MessageListToolbar.qml:45
+msgid "Expunge mailbox"
+msgstr ""
+
+#: qml/MailboxView/MailboxActionPopover.qml:47
+#: qml/Components/MessageListToolbar.qml:53
+#: qml/Components/MessageListToolbar.qml:68
+msgid "Mark mailbox read"
+msgstr ""
+
+#: qml/MailboxView/MailboxListPage.qml:55
+#: qml/MessageListView/MessageListPage.qml:76
+msgid "Network"
+msgstr ""
+
+#: qml/MessageListView/LightWeightDelegate.qml:174
+msgid "Unavailable"
+msgstr ""
+
+#: qml/MessageListView/MessageListActionPopover.qml:23
+#: qml/MessageListView/MessageListActionPopover.qml:37
+msgid "Reply To Message"
+msgstr ""
+
+#: qml/MessageListView/MessageListActionPopover.qml:61
+msgid "Move message to..."
+msgstr ""
+
+#: qml/MessageListView/MessagesListView.qml:189
+msgid "Load more messages...."
+msgstr ""
+
+#: qml/MessageListView/MessagesListView.qml:280
+msgid "Un-mark"
+msgstr ""
+
+#: qml/MessageListView/MessagesListView.qml:280
+msgid "Mark"
+msgstr ""
+
+#: qml/MessageListView/MessagesListView.qml:288
+msgid "Mark un-read"
+msgstr ""
+
+#: qml/MessageListView/MessagesListView.qml:288
+#: qml/MessageListView/MessagesListView.qml:367
+msgid "Mark read"
+msgstr ""
+
+#: qml/MessageListView/MessagesListView.qml:346
+msgid "Star"
+msgstr ""
+
+#: qml/MessageListView/MessagesListView.qml:346
+msgid "Remove star"
+msgstr ""
+
+#: qml/MessageListView/MessagesListView.qml:367
+msgid "Mark unread"
+msgstr ""
+
+#: qml/MessageListView/MessagesListView.qml:386
+msgid "Unselect all"
+msgstr ""
+
+#: qml/MessageListView/MessagesListView.qml:386
+msgid "Select all"
+msgstr ""
+
+#: qml/MessageListView/MessagesListView.qml:431
+msgid "Release to refresh..."
+msgstr ""
+
+#: qml/MessageListView/MessagesListView.qml:431
+msgid "Pull to refresh..."
+msgstr ""
+
+#: qml/MessageListView/MessageListPage.qml:32
+#, qt-format
+msgid "Inbox %1"
+msgstr ""
+
+#: qml/MessageListView/MessageListPage.qml:40
+#, qt-format
+msgid "Inbox <small>(%1)</small>"
+msgstr ""
+
+#: qml/MessageListView/MessageListPage.qml:59
+msgid "All"
+msgstr ""
+
+#: qml/MessageListView/MessageListPage.qml:59
+msgid "Unread"
+msgstr ""
+
+#: qml/MessageListView/MessageListPage.qml:59
+msgid "Starred"
+msgstr ""
+
+#: qml/MessageListView/MessageListPage.qml:59
+msgid "Tagged"
+msgstr ""
+
+#: qml/MessageListView/MessageListPage.qml:59
+msgid "Deleted"
+msgstr ""
+
+#: qml/MessageListView/MessageListPage.qml:113
+msgid "Search..."
+msgstr ""
+
+#: qml/Components/MailboxPicker.qml:25
+msgid "Select a mailbox"
+msgstr ""
+
+#: qml/Components/DekkoHeader.qml:219
+msgid "Enter search..."
+msgstr ""
+
+#: qml/Components/MessageListToolbar.qml:37
+#: qml/Components/MessageListToolbar.qml:93
+msgid "Sort Options"
+msgstr ""
+
+#: qml/Components/MessageListToolbar.qml:58
+msgid "Are you sure?"
+msgstr ""
+
+#: qml/Components/MessageListToolbar.qml:59
+#, qt-format
+msgid "Please confirm you wish to mark all messages in %1 as read"
+msgstr ""
+
+#: qml/Components/MessageListToolbar.qml:97
+msgid "Sort Order"
+msgstr ""
+
+#: qml/Components/PageHeader.qml:117
+msgid "No activity"
+msgstr ""
+
+#: qml/Components/BasePageWithComposer.qml:145
+msgid "Edit draft"
+msgstr ""
+
+#: qml/Components/EncryptionSelector.qml:34
+msgid "Secure Connection"
+msgstr ""
+
+#: qml/Components/EncryptionSelector.qml:111
+#: qml/Components/EncryptionSelector.qml:117
+msgid "No encryption"
+msgstr ""
+
+#: qml/Components/EncryptionSelector.qml:112
+#: qml/Components/EncryptionSelector.qml:118
+msgid "Use encryption (STARTTLS)"
+msgstr ""
+
+#: qml/Components/EncryptionSelector.qml:113
+#: qml/Components/EncryptionSelector.qml:119
+msgid "Force encryption (SSL/TLS)"
+msgstr ""
+
+#: qml/Components/TitledTextField.qml:62
+msgid " (Required)"
+msgstr ""
+
+#: qml/Components/AddressWidget.qml:67
+msgid "Write to"
+msgstr ""
+
+#: qml/Dialogs/PasswordDialog.qml:33
+msgid "Password required"
+msgstr ""
+
+#: qml/Dialogs/PasswordDialog.qml:34
+#, qt-format
+msgid "Please provide password for user <b>%1</b>"
+msgstr ""
+
+#: qml/Dialogs/PasswordDialog.qml:96 qml/Dialogs/ConfirmationDialog.qml:19
+msgid "Confirm"
+msgstr ""
+
+#: qml/Dialogs/SubmissionStatusDialog.qml:38
+msgid "Sending..."
+msgstr ""
+
+#: qml/Dialogs/SubmissionStatusDialog.qml:42
+msgid "Success "
+msgstr ""
+
+#: qml/Dialogs/SubmissionStatusDialog.qml:48
+msgid "Sending Failed"
+msgstr ""
+
+#: qml/Dialogs/SubmissionStatusDialog.qml:55
+msgid "Sending...."
+msgstr ""
+
+#: qml/Dialogs/DraftsDialog.qml:30
+msgid "Message not sent"
+msgstr ""
+
+#: qml/Dialogs/DraftsDialog.qml:31
+msgid "What would you like to do?"
+msgstr ""
+
+#: qml/Dialogs/DraftsDialog.qml:36
+msgid "Save changes to drafts"
+msgstr ""
+
+#: qml/Dialogs/DraftsDialog.qml:36
+msgid "Save to drafts"
+msgstr ""
+
+#: qml/Dialogs/DraftsDialog.qml:48
+msgid "Discard changes"
+msgstr ""
+
+#: qml/Dialogs/DraftsDialog.qml:48
+msgid "Discard message"
+msgstr ""
+
+#: qml/Dialogs/DraftsDialog.qml:56
+msgid "Continue editing"
+msgstr ""
+
+#: qml/Dialogs/MoveMessageActionDialog.qml:33
+msgid "Failed"
+msgstr ""
+
+#: qml/Dialogs/MoveMessageActionDialog.qml:34
+msgid "Unable to move message"
+msgstr ""
+
+#: qml/Dialogs/MoveMessageActionDialog.qml:47
+msgid "Move message."
+msgstr ""
+
+#: qml/Dialogs/MoveMessageActionDialog.qml:48
+msgid "Select the mailbox to move message to"
+msgstr ""
+
+#: qml/Dialogs/MoveMessageActionDialog.qml:66
+msgid "Move"
+msgstr ""
+
+#: qml/Dialogs/NetworkPolicyDialog.qml:8
+msgid "Network Policy"
+msgstr ""
+
+#: qml/Dialogs/NetworkPolicyDialog.qml:9
+msgid "Bandwidth saving mode is a good choice for mobile data connections"
+msgstr ""
+
+#: qml/Dialogs/NetworkPolicyDialog.qml:16
+msgid "Offline mode"
+msgstr ""
+
+#: qml/Dialogs/NetworkPolicyDialog.qml:16
+msgid "Online mode"
+msgstr ""
+
+#: qml/Utils/Utils.js:117
+msgid "HTML"
+msgstr ""
+
+#: qml/Utils/Utils.js:119
+msgid "Plain text"
+msgstr ""
+
+#: qml/Utils/Utils.js:121
+msgid "Attachments"
+msgstr ""

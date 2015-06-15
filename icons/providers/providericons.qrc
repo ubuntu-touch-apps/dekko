@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/provider">
+        <file>canonical.svg</file>
+        <file>gmail.svg</file>
+        <file>outlook.svg</file>
+        <file>ubuntu.svg</file>
+        <file>yahoo.svg</file>
+        <file>online-account-google.svg</file>
+        <file>online-account-outlook.svg</file>
+        <file>online-account-yahoo.svg</file>
+        <file>online-account.svg</file>
+    </qresource>
+</RCC>

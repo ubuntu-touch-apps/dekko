@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/actions">
+        <file>draft.svg</file>
+        <file>dropdown-menu.svg</file>
+        <file>edit-delete.svg</file>
+        <file>favorite-unselected.svg</file>
+        <file>folder.svg</file>
+        <file>important.svg</file>
+        <file>inbox-all01a.svg</file>
+        <file>inbox.svg</file>
+        <file>junk.svg</file>
+        <file>language-chooser.svg</file>
+        <file>mail-forward.svg</file>
+        <file>mail-forwarded.svg</file>
+        <file>mail-mark-important.svg</file>
+        <file>mail-read.svg</file>
+        <file>mail-replied-all.svg</file>
+        <file>mail-replied.svg</file>
+        <file>mail-reply-all.svg</file>
+        <file>mail-reply.svg</file>
+        <file>mail-unread.svg</file>
+        <file>navigation-menu.svg</file>
+        <file>new-contact.svg</file>
+        <file>select-none.svg</file>
+        <file>select.svg</file>
+        <file>sent.svg</file>
+        <file>starred.svg</file>
+        <file>tags.svg</file>
+        <file>mail-mark-important03a.svg</file>
+        <file>mail-mark-important03.svg</file>
+        <file>send.svg</file>
+        <file>attachment.svg</file>
+        <file>avatar-circle.svg</file>
+    </qresource>
+</RCC>

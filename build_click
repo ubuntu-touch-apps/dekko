@@ -1,0 +1,8 @@
+#!/bin/bash
+
+mkdir -p project/__build && cd project/__build
+cmake .. -DUBUNTU_CLICK_MODE=on -DCMAKE_INSTALL_PREFIX=/
+make -j3
+make DESTDIR=./.dekko-click install
+cd .dekko-click
+click build .

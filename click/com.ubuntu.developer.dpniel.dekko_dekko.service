@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+    <type>com.ubuntu.developer.dpniel.dekko_dekko</type>
+    <name>Google</name>
+    <provider>google</provider>
+</service>

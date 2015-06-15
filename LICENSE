@@ -1,0 +1,115 @@
+Dekko, Email client for Ubuntu
+--------------------------------------------------------------------
+
+Copyright (C) 2014 - 2015 Dan Chapman <dpniel@ubuntu.com>
+Copyright (C) 2014 - 2015 Boren Zhang <bobo1993324@gmail.com>
+Copyright (C) 2014 - 2015 Giorgio Venturi <giorgio.venturi@gmail.com>
+Copyright (C) 2014 - 2015 Matthieu James <matthieu.james@gmail.com>
+Copyright (C) 2015 Zhan Wang <elliott8533@gmail.com>
+Copyright (C) 2014 Nekhelesh Ramananthan <krnekhelesh@gmail.com>
+Copyright (C) 2014 Daniel Beck <d.danielbeck@googlemail.com>
+Copyright (C) 2014 Giulio Collura <giulio.collura@gmail.com>
+Copyright (C) 2014 Nekhelesh Ramananthan <krnekhelesh@gmail.com>
+
+This file is part of Dekko email client for Ubuntu Devices/
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License or (at your option) version 3
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+---------------------------------------------------------------------------------
+Moka Icons used for Accounts Icons
+
+from moka-icon-theme https://github.com/moka-project/moka-icon-theme
+
+Copyright (C) Sam Hewitt
+
+used under the terms of the GNU General Public License as published 
+by the Free Software Foundation; either version 3, or (at your option) 
+any later version.
+
+Full License found at
+
+https://github.com/moka-project/moka-icon-theme/blob/master/LICENSE
+
+----------------------------------------------------------------------
+Licence for Trojitá, Qt IMAP e-mail client
+----------------------------------------------------------------------
+
+Copyright (C) 2006 - 2014 Jan Kundrát <jkt@flaska.net>
+Copyright (C) 2012 - 2014 Thomas Lübking <thomas.luebking@gmail.com>
+Copyright (C) 2013 Pavol Rohár <pali.rohar@gmail.com>
+Copyright (C) 2013 Caspar Schutijser <caspar@schutijser.com>
+Copyright (C) 2013 - 2014 Stephan Platz <trojita@paalsteek.de>
+Copyright (C) 2014 Michael Hall <mhall119@ubuntu.com>
+Copyright (C) 2014 Dan Chapman <dpniel@ubuntu.com>
+Copyright (C) 2014 Boren Zhang <bobo1993324@gmail.com>
+Copyright (C) 2014 Karan Luthra <karanluthra06@gmail.com>
+Copyright (C) 2014 Niklas Wenzel <nikwen.developer@gmail.com>
+Copyright (C) 2014 Pavel Sedlák <psedlak@redhat.com>
+Copyright (C) 2014 Luigi Toscano <luigi.toscano@tiscali.it>
+Copyright (C) 2013 Glad Deschrijver <glad.deschrijver@gmail.com>
+Copyright (C) 2014 Yazeed Zoabi <yazeedz.zoabi@gmail.com>
+Copyright (C) 2014 Danny Rimmer <utf8snowman@gmail.com>
+Copyright (C) 2012 - 2014 Yuri Chornoivan <yurchor@ukr.net>
+Copyright (C) 2013 Jai Luthra <me@jailuthra.in>
+Copyright (C) 2013 Benjamin Kaiser <benjaminjkaiser@gmail.com>
+Copyright (C) 2012 - 2013 Peter Amidon <peter@picnicpark.org>
+Copyright (C) 2011 - 2012 Thomas Gahr <thomas.gahr@physik.uni-muenchen.de>
+Copyright (C) 2012 Shanti Bouchez <shanti@sogilis.com>
+Copyright (C) 2012 Mohammed Nafees <nafees.technocool@gmail.com>
+Copyright (C) 2013 Sreepriya Chalakkal <sreepriya1111@gmail.com>
+Copyright (C) 2013 Stefan Kögl <stefan.koegl@tu-dortmund.de>
+Copyright (C) 2013 James Turner <james@calminferno.net>
+Copyright (C) 2013 Mayank Jha <mjnovice@gmail.com>
+Copyright (C) 2013 André Marcelo Alvarenga <alvarenga@kde.org>
+Copyright (C) 2012 - 2013 Albert Astals Cid <aacid@kde.org>
+Copyright (C) 2012 - 2013 Ahmed Ibrahim Khalil <ahmedibrahimkhali@gmail.com>
+Copyright (C) 2010 - 2013 OpenMFG LLC, dba xTuple
+Copyright (C) 2013 Adrián Arroyo Calle <adrian.arroyocalle@gmail.com>
+Copyright (C) 2012 Allen Winter <allen.winter@kdab.com>
+Copyright (C) 2012 Chusslove Illich (Часлав Илић) <caslav.ilic@gmx.net>
+Copyright (C) 2012 Michael Sprauer <Michael@Sprauer.net>
+Copyright (C) 2012 Chase Douglas <chase.douglas@canonical.com>
+Copyright (C) 2012 Wim Lewis <wiml@hhhh.org>
+Copyright (C) 2011 Tomáš Kouba <tomas@jikos.cz>
+Copyright (C) 2011 Jun Yang <slickqt@gmail.com>
+Copyright (C) 2009, 2011 Jiří Helebrant <helb@helb.cz>
+Copyright (C) 2011 Mariusz Fik <fisiu@opensuse.org>
+Copyright (C) 2011 Andrew Brouwers <abrouwers@gmail.com>
+Copyright (C) 2010 Benson Tsai <btsai@vrwarp.com>
+Copyright (C) 2009 Justin J <justin@jjamfd.com>
+Copyright (C) 2000 - 2001 Dawit Alemayehu <adawit@kde.org>
+Copyright (C) 2001 Rik Hemsley <rik@kde.org>
+Copyright (C) 2000 Sven Carstens <s.carstens@gmx.de>
+Copyright (C) 2010 Klarälvdalens Datakonsult AB, Stephen Kelly <stephen@kdab.com>
+Copyright (C) 2009 Stephen Kelly <steveire@gmail.com>
+Copyright (C) 2007 Trolltech ASA
+Copyright (C) 2009, 2010, 2012 Nokia Corporation and/or its subsidiary(-ies)
+Copyright (C) 2012, 2013 Filipe Azevedo <pasnox@gmail.com>
+Copyright (C) 2009 Witold Wysota <wysota@wysota.eu.org>
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License or (at your option) version 3 or any later version
+accepted by the membership of KDE e.V. (or its successor approved
+by the membership of KDE e.V.), which shall act as a proxy
+defined in Section 14 of version 3 of the license.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.

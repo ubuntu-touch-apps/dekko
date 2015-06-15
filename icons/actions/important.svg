@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32px"
+   height="32px"
+   id="svg8156"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="important.svg">
+  <defs
+     id="defs8158" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.197802"
+     inkscape:cx="0.37193275"
+     inkscape:cy="15.910697"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     showguides="false"
+     inkscape:window-width="833"
+     inkscape:window-height="614"
+     inkscape:window-x="2420"
+     inkscape:window-y="174"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid8188" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata8161">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="color:#bebebe;fill:none;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       id="rect18110"
+       y="0"
+       x="-5.8288057e-05"
+       height="32"
+       width="32.000088" />
+    <path
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Light"
+       d="m 12.000013,2 0,10 c 0.016,4.01218 1.000003,4.8125 1.000003,8.5625 l 4.000011,0 c 0,-3.75 0.804002,-3.74306 1.000002,-8.5625 l 0,-10 -6.000016,0 z m 3.125009,21.6875 c -0.457402,0 -0.911603,0.077 -1.312504,0.1874 -0.402241,0.1116 -0.704022,0.25246 -1.000003,0.5 -0.297321,0.24754 -0.520701,0.5991 -0.687502,1 -0.1668,0.40226 -0.25,0.91882 -0.25,1.5 0,0.55696 0.0832,0.97948 0.25,1.375 0.166801,0.39418 0.390181,0.74036 0.687502,1 0.295981,0.2583 0.597762,0.4441 1.000003,0.5625 0.400901,0.117 0.855102,0.1874 1.312504,0.1874 0.433201,0 0.861202,-0.0704 1.250003,-0.1874 0.388801,-0.1184 0.702682,-0.3042 1.000003,-0.5625 0.295981,-0.25964 0.513901,-0.60582 0.687502,-1 0.1734,-0.39552 0.312501,-0.81804 0.312501,-1.375 0,-0.58118 -0.139001,-1.09774 -0.312501,-1.5 -0.173601,-0.4009 -0.391521,-0.75246 -0.687502,-1 -0.297321,-0.24754 -0.611202,-0.3884 -1.000003,-0.5 -0.388801,-0.1102 -0.816802,-0.1874 -1.250003,-0.1874 z"
+       id="path4113"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

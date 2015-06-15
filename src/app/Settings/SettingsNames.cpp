@@ -1,0 +1,84 @@
+#include "SettingsNames.h"
+
+namespace Dekko
+{
+const QString SettingsNames::identitiesKey = QLatin1String("identities");
+const QString SettingsNames::realNameKey = QLatin1String("realName");
+const QString SettingsNames::addressKey = QLatin1String("address");
+const QString SettingsNames::organisationKey = QLatin1String("organisation");
+const QString SettingsNames::signatureKey = QLatin1String("signature");
+const QString SettingsNames::obsRealNameKey = QLatin1String("identity.realName");
+const QString SettingsNames::obsAddressKey = QLatin1String("identity.address");
+const QString SettingsNames::msaMethodKey = QLatin1String("msa.method");
+const QString SettingsNames::methodSMTP = QLatin1String("SMTP");
+const QString SettingsNames::methodSSMTP = QLatin1String("SSMTP");
+const QString SettingsNames::methodSENDMAIL = QLatin1String("sendmail");
+const QString SettingsNames::methodImapSendmail = QLatin1String("IMAP-SENDMAIL");
+const QString SettingsNames::smtpHostKey = QLatin1String("msa.smtp.host");
+const QString SettingsNames::smtpPortKey = QLatin1String("msa.smtp.port");
+const QString SettingsNames::smtpAuthKey = QLatin1String("msa.smtp.auth");
+const QString SettingsNames::smtpStartTlsKey = QLatin1String("msa.smtp.starttls");
+const QString SettingsNames::smtpUserKey = QLatin1String("msa.smtp.auth.user");
+// in use by the cleartext password plugin: "msa.smtp.auth.pass"
+const QString SettingsNames::sendmailKey = QLatin1String("msa.sendmail");
+const QString SettingsNames::sendmailDefaultCmd = QLatin1String("sendmail -bm -oi");
+const QString SettingsNames::smtpUseBurlKey = QLatin1String("msa.smtp.burl");
+const QString SettingsNames::imapMethodKey = QLatin1String("imap.method");
+const QString SettingsNames::methodTCP = QLatin1String("TCP");
+const QString SettingsNames::methodSSL = QLatin1String("SSL");
+const QString SettingsNames::methodProcess = QLatin1String("process");
+const QString SettingsNames::imapHostKey = QLatin1String("imap.host");
+const QString SettingsNames::imapPortKey = QLatin1String("imap.port");
+const QString SettingsNames::imapStartTlsKey = QLatin1String("imap.starttls");
+const QString SettingsNames::imapUserKey = QLatin1String("imap.auth.user");
+// in use by the cleartext password plugin: "imap.auth.pass"
+const QString SettingsNames::imapProcessKey = QLatin1String("imap.process");
+const QString SettingsNames::imapStartOffline = QLatin1String("imap.offline");
+const QString SettingsNames::imapEnableId = QLatin1String("imap.enableId");
+const QString SettingsNames::obsImapSslPemCertificate = QLatin1String("imap.ssl.pemCertificate");
+const QString SettingsNames::imapSslPemPubKey = QLatin1String("imap.ssl.pemPubKey");
+const QString SettingsNames::imapBlacklistedCapabilities = QLatin1String("imap.extension.blacklist");
+const QString SettingsNames::imapUseSystemProxy = QLatin1String("imap.proxy.system");
+const QString SettingsNames::imapNeedsNetwork = QLatin1String("imap.needsNetwork");
+const QString SettingsNames::composerSaveToImapKey = QLatin1String("saveToImapEnabled");
+const QString SettingsNames::composerImapSentKey = QLatin1String("imapSentName");
+const QString SettingsNames::cacheMetadataKey = QLatin1String("offline.metadataCache");
+const QString SettingsNames::cacheMetadataMemory = QLatin1String("memory");
+const QString SettingsNames::cacheOfflineKey = QLatin1String("offline.cache");
+const QString SettingsNames::cacheOfflineNone = QLatin1String("memory");
+const QString SettingsNames::cacheOfflineXDays = QLatin1String("days");
+const QString SettingsNames::cacheOfflineAll = QLatin1String("all");
+const QString SettingsNames::cacheOfflineNumberDaysKey = QLatin1String("offline.cache.numDays");
+const QString SettingsNames::appLoadHomepage = QLatin1String("app.updates.checkEnabled");
+const QString SettingsNames::knownEmailsKey = QLatin1String("addressBook/knownEmails");
+const QString SettingsNames::addressbookPlugin = QLatin1String("plugin/addressbook");
+const QString SettingsNames::passwordPlugin = QLatin1String("plugin/password");
+const QString SettingsNames::imapAutoExpunge = QLatin1String("preferences.autoExpunge");
+const QString SettingsNames::imapAutoLoadImages = QLatin1String("preferences.autoLoadImages");
+const QString SettingsNames::developerModeEnabled = QLatin1String("developerModeEnabled");
+const QString SettingsNames::enableImapModelLog = QLatin1String("devModeImapModelLogEnabled");
+const QString SettingsNames::devModeEnableThreading = QLatin1String("devModeEnableThreading");
+const QString SettingsNames::devModeEnableContacts = QLatin1String("devModeEnableContacts");
+const QString SettingsNames::imapAuthType = QLatin1String("imap.AuthType");
+const QString SettingsNames::smtpAuthType = QLatin1String("msa.AuthType");
+const QString SettingsNames::plainAuth = QLatin1String("PlainAuth");
+const QString SettingsNames::loginAuth = QLatin1String("LoginAuth");
+const QString SettingsNames::oAuth = QLatin1String("OAuth");
+const QString SettingsNames::preferPlainText = QLatin1String("preferences.preferPlainText");
+const QString SettingsNames::profileName = QLatin1String("profile.name");
+const QString SettingsNames::profileDescription = QLatin1String("profile.description");
+const QString SettingsNames::profileOrganization = QLatin1String("profile.organization");
+const QString SettingsNames::uoaAccountId = QLatin1String("uoa.accountId");
+const QString SettingsNames::uoaProvider = QLatin1String("uoa.provider");
+const QString SettingsNames::uoaDekkoProvider = QLatin1String("dekko");
+const QString SettingsNames::uoaGmailProvider = QLatin1String("gmail");
+const QString SettingsNames::theme = QLatin1String("preferences.theme");
+const QString SettingsNames::markAsRead = QLatin1String("preferences.markAsRead");
+const QString SettingsNames::neverMarkRead = QLatin1String("never");
+const QString SettingsNames::immediatelyMarkRead = QLatin1String("immediately");
+const QString SettingsNames::secondsBeforeMarkRead = QLatin1String("seconds");
+const QString SettingsNames::markAsReadAfter = QLatin1String("preferences.markAsReadAfter");
+const QString SettingsNames::hideMarkedDeleted = QLatin1String("preferences.hideMarkedDeleted");
+const QString SettingsNames::allowGravatar = QLatin1String("preferences.allowGravatar");
+const QString SettingsNames::previewLines = QLatin1String("preference.previewLines");
+}

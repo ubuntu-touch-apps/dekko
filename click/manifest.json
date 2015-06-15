@@ -1,0 +1,21 @@
+{
+    "name": "dekko.dekkoproject",
+    "description": "Dekko email client for Ubuntu devices",
+    "framework": "ubuntu-sdk-14.10-qml",
+    "architecture": "@HOST_ARCH@",
+    "title": "Dekko",
+    "hooks": {
+        "dekko": {
+            "apparmor": "dekko.apparmor",
+            "content-hub": "dekko-content.json",
+            "desktop": "dekko.desktop",
+            "urls": "dekko.url-dispatcher"
+        },
+        "dekko-notify": {
+            "apparmor": "pushHelper-apparmor.json",
+            "push-helper": "pushHelper.json"
+        }
+    },
+    "version": "0.5.4-Dirty",
+    "maintainer": "Dan Chapman <dpniel@ubuntu.com>"
+}
