@@ -800,9 +800,6 @@ add_custom_target(ubuntu_Configuration ALL
     COMMENT "Copying configuration files to build tree"
 )
 
-if(NOT "${CMAKE_INSTALL_PREFIX}" STREQUAL "/")
-    set(CMAKE_INSTALL_PREFIX "/")
-endif()
 set(DATA_DIR ${CMAKE_INSTALL_PREFIX})
 # This magic variable is set by the qtc_chroot_cmake2 script in the ubuntu sdk plugin
 # http://bazaar.launchpad.net/~ubuntu-sdk-team/qtcreator-plugin-ubuntu/trunk/view/head:/share/qtcreator/ubuntu/scripts/qtc_chroot_cmake2
