@@ -1,27 +1,28 @@
-set(UBUNTU_PROJECT_TYPE "ClickApp" CACHE INTERNAL "Let Qtc know were a click app")
-set(UBUNTU_MANIFEST_PATH "click/manifest.json" CACHE INTERNAL "Tells QtCreator location and name of the manifest file")
-set(CMAKE_INSTALL_PREFIX "/")
+set(WITH_UBUNTU ON)
+set(CLICK_MODE OFF)
 
 # we have to hard pick qt5 in the click chroot otherwise we can't build translations
 SET(ENV{QT_SELECT} qt5)
 
-find_program(DPKG_ARCHITECTURE_EXECUTABLE dpkg-architecture)
-if(DPKG_ARCHITECTURE_EXECUTABLE)
-    execute_process(
-        COMMAND ${DPKG_ARCHITECTURE_EXECUTABLE} -qDEB_HOST_MULTIARCH
-            OUTPUT_VARIABLE ARCH_TRIPLET
-            OUTPUT_STRIP_TRAILING_WHITESPACE
-    )
-    execute_process(
-        # Get the build host arch and test it is armhf, since
-        # CMAKE_LIBRARY_ARCHITECTURE and CMAKE_SYSTEM_PROCESSOR don't contain
-        # any value inside the click chroot?? query the DEB_HOST_ARCH
-        COMMAND ${DPKG_ARCHITECTURE_EXECUTABLE} -qDEB_HOST_ARCH
-            OUTPUT_VARIABLE HOST_ARCH
-            OUTPUT_STRIP_TRAILING_WHITESPACE
-    )
-else()
-    message(FATAL_ERROR "Ubuntu click mode requires dpkg-architecture be installed, stopping build")
+if(CLICK_MODE)
+    find_program(DPKG_ARCHITECTURE_EXECUTABLE dpkg-architecture)
+    if(DPKG_ARCHITECTURE_EXECUTABLE)
+        execute_process(
+            COMMAND ${DPKG_ARCHITECTURE_EXECUTABLE} -qDEB_HOST_MULTIARCH
+                OUTPUT_VARIABLE ARCH_TRIPLET
+                OUTPUT_STRIP_TRAILING_WHITESPACE
+        )
+        execute_process(
+            # Get the build host arch and test it is armhf, since
+            # CMAKE_LIBRARY_ARCHITECTURE and CMAKE_SYSTEM_PROCESSOR don't contain
+            # any value inside the click chroot?? query the DEB_HOST_ARCH
+            COMMAND ${DPKG_ARCHITECTURE_EXECUTABLE} -qDEB_HOST_ARCH
+                OUTPUT_VARIABLE HOST_ARCH
+                OUTPUT_STRIP_TRAILING_WHITESPACE
+        )
+    else()
+        message(FATAL_ERROR "Ubuntu click mode requires dpkg-architecture be installed, stopping build")
+    endif()
 endif()
 
 cmake_minimum_required(VERSION 2.8.9)
@@ -58,10 +59,10 @@ include(TrojitaOption)
 
 trojita_option(WITH_RAGEL "Build with Ragel library" AUTO)
 trojita_option(WITH_ZLIB "Build with zlib library" AUTO)
-trojita_option(WITH_SHARED_PLUGINS "Enable shared dynamic plugins" OFF)
+trojita_option(WITH_SHARED_PLUGINS "Enable shared dynamic plugins" ON)
 trojita_option(WITH_TESTS "Build tests" ON)
 trojita_option(DEV_FATAL_WARNINGS "Turn build warnings into errors (developers only)" OFF)
-trojita_option(UPDATE_TRANSLATIONS "Update dekko .pot template" ON)
+trojita_option(UPDATE_TRANSLATIONS "Update dekko .pot template" OFF)
 
 trojita_plugin_option(WITH_SIMPLECRYPT_PLUGIN "Build simplecrypt password plugin" STATIC)
 
@@ -69,7 +70,6 @@ find_package(Qt5Core 5.4 REQUIRED)
 find_package(Qt5Gui REQUIRED)
 find_package(Qt5Network 5.4 REQUIRED)
 find_package(Qt5Sql 5.4 REQUIRED)
-#find_package(Qt5LinguistTools 5.4 REQUIRED)
 if(WITH_TESTS)
     find_package(Qt5Test REQUIRED)
 endif()
