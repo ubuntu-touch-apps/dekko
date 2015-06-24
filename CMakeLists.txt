@@ -59,7 +59,7 @@ include(TrojitaOption)
 
 trojita_option(WITH_RAGEL "Build with Ragel library" AUTO)
 trojita_option(WITH_ZLIB "Build with zlib library" AUTO)
-trojita_option(WITH_SHARED_PLUGINS "Enable shared dynamic plugins" ON)
+trojita_option(WITH_SHARED_PLUGINS "Enable shared dynamic plugins" OFF)
 trojita_option(WITH_TESTS "Build tests" ON)
 trojita_option(DEV_FATAL_WARNINGS "Turn build warnings into errors (developers only)" OFF)
 trojita_option(UPDATE_TRANSLATIONS "Update dekko .pot template" OFF)
@@ -807,7 +807,6 @@ set(DATA_DIR ${CMAKE_INSTALL_PREFIX})
 if(QT_IMPORTS_DIR)
     set(QT_IMPORTS_DIR ${QT_IMPORTS_DIR})
 endif()
-set(BIN_DIR lib/${ARCH_TRIPLET}/bin)
 set(ICON dekko.png)
 set(ICON_DIR ${DATA_DIR})
 set(DESKTOP_DIR ${DATA_DIR})
@@ -866,7 +865,7 @@ install(
 
 install(
     TARGETS dekko
-    DESTINATION ${BIN_DIR}
+    RUNTIME DESTINATION bin
 )
 
 install(
