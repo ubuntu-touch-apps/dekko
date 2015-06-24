@@ -18,7 +18,6 @@
 
 import QtQuick 2.3
 import DekkoCore 0.2
-import "contactUtils.js" as ContactUtils
 
 DekkoContactsModel {
     id: root

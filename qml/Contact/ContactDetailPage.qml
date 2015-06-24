@@ -24,7 +24,6 @@ import Ubuntu.Components.Popups 1.0
 import DekkoCore 0.2
 import "../Composer"
 import "../Components"
-import "contactUtils.js" as ContactUtils
 import "imports/Contacts.js" as Contacts
 import "../Dialogs"
 
