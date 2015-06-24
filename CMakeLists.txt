@@ -1,8 +1,18 @@
-set(WITH_UBUNTU ON)
-set(CLICK_MODE OFF)
+project(dekko)
+cmake_minimum_required(VERSION 2.8.9)
+
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
+# Standard install paths
+include(GNUInstallDirs)
+
+option(INSTALL_TESTS "Install the tests on make install" OFF)
+option(CLICK_MODE "Installs to a contained location" OFF)
 
 # we have to hard pick qt5 in the click chroot otherwise we can't build translations
 SET(ENV{QT_SELECT} qt5)
+set(APP_NAME dekko)
 
 if(CLICK_MODE)
     find_program(DPKG_ARCHITECTURE_EXECUTABLE dpkg-architecture)
@@ -23,23 +33,19 @@ if(CLICK_MODE)
     else()
         message(FATAL_ERROR "Ubuntu click mode requires dpkg-architecture be installed, stopping build")
     endif()
+else()
+    execute_process(
+        COMMAND qmake -query QT_INSTALL_QML
+        OUTPUT_VARIABLE QT_IMPORTS_DIR
+        OUTPUT_STRIP_TRAILING_WHITESPACE
+    )
+    set(DATA_DIR ${CMAKE_INSTALL_DATADIR}/${APP_NAME})
+    set(ICON ${CMAKE_INSTALL_PREFIX}/${DATA_DIR}/${ICON_FILE})
+    set(DESKTOP_DIR ${CMAKE_INSTALL_DATADIR}/applications)
 endif()
 
-cmake_minimum_required(VERSION 2.8.9)
-project(dekko)
 set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 
-# POSITION_INDEPENDENT_CODE is only available on cmake 2.8.9 or later
-# Add needed flags for supported compilers which simulate POSITION_INDEPENDENT_CODE property
-if(CMAKE_VERSION VERSION_LESS "2.8.9")
-    if(CMAKE_COMPILER_IS_GNUCXX OR "${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
-        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
-    else()
-        message(FATAL_ERROR "Needs GNU or Clang C++ compiler or CMake 2.8.9 (or later)")
-    endif()
-else()
-    set(CMAKE_POSITION_INDEPENDENT_CODE ON)
-endif()
 
 include(FindCXXFeatures)
 if(NOT CXXFeatures_auto_FOUND)
@@ -114,7 +120,6 @@ include_directories(
 
 add_definitions(-DQT_STRICT_ITERATORS)
 
-set(CMAKE_AUTOMOC True)
 
 
 trojita_find_package(RagelForTrojita "" "" "" "" WITH_RAGEL)
@@ -437,7 +442,7 @@ set(CLICK_PKG_MANIFEST ${CMAKE_CURRENT_SOURCE_DIR}/click/manifest.json)
 set(DEKKO_DESKTOP_FILE ${DEKKO_UBUNTU_PATH}/app/dekko.desktop)
 set(DEKKO_CONFIGURATION_DIR ${DEKKO_UBUNTU_PATH}/configuration)
 set(DEKKO_MAIN_QML
-    ${DEKKO_QML_PATH}/main.qml
+    ${DEKKO_QML_PATH}/dekko.qml
 )
 set(DEKKO_CONFIG_FILES
     ${DEKKO_CONFIGURATION_DIR}/domainService.conf
@@ -800,7 +805,6 @@ add_custom_target(ubuntu_Configuration ALL
     COMMENT "Copying configuration files to build tree"
 )
 
-set(DATA_DIR ${CMAKE_INSTALL_PREFIX})
 # This magic variable is set by the qtc_chroot_cmake2 script in the ubuntu sdk plugin
 # http://bazaar.launchpad.net/~ubuntu-sdk-team/qtcreator-plugin-ubuntu/trunk/view/head:/share/qtcreator/ubuntu/scripts/qtc_chroot_cmake2
 # It doesn't hurt to ignore this if we are not building from QtCreator.
@@ -809,7 +813,6 @@ if(QT_IMPORTS_DIR)
 endif()
 set(ICON dekko.png)
 set(ICON_DIR ${DATA_DIR})
-set(DESKTOP_DIR ${DATA_DIR})
 
 set(PROVIDER_ICONS ${DEKKO_ICON_DIR}/providers/providericons.qrc)
 set(ACTION_ICONS ${DEKKO_ICON_DIR}/actions/actionicons.qrc)

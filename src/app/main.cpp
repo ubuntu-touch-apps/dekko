@@ -205,7 +205,7 @@ int main(int argc, char *argv[])
     app.addLibraryPath(QCoreApplication::applicationDirPath());
 
     // let's first check all standard locations
-    QString qmlFile = Dekko::findQmlFile(QString::fromLatin1("qml/main.qml"));
+    QString qmlFile = Dekko::findQmlFile(QString::fromLatin1("qml/dekko.qml"));
 
     Common::registerMetaTypes();
     Common::Application::name = QString::fromLatin1("dekko.dekkoproject");
