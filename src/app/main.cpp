@@ -208,7 +208,7 @@ int main(int argc, char *argv[])
     QString qmlFile = Dekko::findQmlFile(QString::fromLatin1("qml/dekko.qml"));
 
     Common::registerMetaTypes();
-    Common::Application::name = QString::fromLatin1("dekko.dekkoproject");
+    Common::Application::name = QString::fromLatin1("dekko");
     Common::Application::organization = QString::fromLatin1("dekko.dekkoproject");
     AppVersion::setVersion();
     AppVersion::setCoreApplicationData();
